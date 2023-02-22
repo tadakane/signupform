@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Diavlo';
+    src: url('fonts/diavlo_medium_ii_37-webfont.woff2') format('woff2'), url('fonts/diavlo_medium_ii_37-webfont.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    flex: 2.5;
+}
+
+.company_name {
+    font: 4em 'Diavlo';
+    margin: 0;
+}
+
+#logoimg {
+    height: 50px;
+    width: auto;
+}
