@@ -13,6 +13,8 @@ body {
 }
 
 .logo {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     background-image: url("images/background.jpg");
     background-size: cover;
@@ -43,5 +45,16 @@ body {
     position: relative;
     background-color: rgba(255, 255, 255, 0.35);
     padding: 20px;
+}
+
+.empty {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white;
 }
 
