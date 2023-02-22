@@ -8,26 +8,40 @@
 
 body {
     display: flex;
+    margin: 0px;
+    height: 100vh;
 }
 
 .logo {
-    flex: 1;
-    display: flex;
     justify-content: center;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    flex: 1;
 }
 
 .signup {
     display: flex;
     flex-direction: column;
-    flex: 2.5;
+    flex: 1.7;
 }
 
 .company_name {
-    font: 4em 'Diavlo';
-    margin: 0;
+    font: 6em 'Diavlo';
+    padding: 10px;
+    margin-left: 20px;
 }
 
 #logoimg {
-    height: 50px;
+    height: 150px;
     width: auto;
+    margin-left: 35px;
 }
+
+.container {
+    margin-top: 25vh;
+    display: flex;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 20px;
+}
+
