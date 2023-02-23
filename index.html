@@ -26,7 +26,7 @@
             </div>
             <div class="info">
                 <div class="signupheader">Let's do this!</div>
-                <form method="post">
+                <form id="myform" method="post">
                     <div class="first">
                         <label for="first_name">FIRST NAME</label>
                         <span><br></span>
@@ -60,8 +60,8 @@
                 </form>
             </div>
             <div class="submission">
-                <button type="submit">Create Account</button>
-                <div class="login">Already have an account? Log in</div>
+                <button type="submit" id="create" form="myform">Create Account</button>
+                <div class="login">Already have an account? <span class="loginlink">Log in</span></div>
             </div>
         </div>
     </body>
