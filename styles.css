@@ -79,7 +79,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 3vh;
-    box-shadow: 20px 20px 20px -25px black;
+    box-shadow: 0px 10px 20px -8px black;
+    margin-bottom: 5vh;
 }
 
 label {
@@ -94,6 +95,7 @@ label {
 
 .submission {
     flex: 1.05;
+    padding-left: 13vh;
 }
 
 form {
@@ -118,4 +120,36 @@ input {
 input:focus {
     border: 1px solid #1d4ed8;
     box-shadow: 3px 3px 6px rgb(196, 196, 196);
+}
+
+.error {
+    border: 1px solid red;
+    box-shadow: 3px 3px 6px rgb(196, 196, 196);
+}
+
+#create {
+    font: 1.25em sans-serif;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-color: #206d5b;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.login {
+    font: 1em sans-serif;
+}
+
+#create:hover {
+    cursor: pointer;
+    background-color: #1a5648;
+}
+
+.loginlink {
+    color: #206d5b
+}
+
+.hidden {
+    display: none;
 }
