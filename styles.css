@@ -157,3 +157,7 @@ input:focus {
     color: red;
     font: 0.75em sans-serif;
 }
+
+input:focus:required:invalid {
+    border: 1px solid red;
+}
