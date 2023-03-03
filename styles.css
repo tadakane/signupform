@@ -124,7 +124,6 @@ input:focus {
 
 .error {
     border: 1px solid red;
-    box-shadow: 3px 3px 6px rgb(196, 196, 196);
 }
 
 #create {
@@ -151,5 +150,10 @@ input:focus {
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
+}
+
+.errormsg {
+    color: red;
+    font: 0.75em sans-serif;
 }
