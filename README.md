@@ -8,3 +8,5 @@ patterns as basic input validation. CSS is used to make the webpage look appeali
 flexboxes, and pseudo classes for the best display. Javascript is used to simulate input validation of
 passwords, making sure they match and adding classes to style the input fields based on validity.
 (This webpage is for simulating the front-end, so there is no actual password encryption)
+
+Background Photo by Srijan Mohan on Unsplash @ https://unsplash.com/@srijancm
